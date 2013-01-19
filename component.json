@@ -1,0 +1,10 @@
+{
+  "name": "assets",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "~2.2.2",
+    "ember": "~1.0.0-pre.2",
+    "fullcalendar": "latest",
+    "jquery": "latest"
+  }
+}

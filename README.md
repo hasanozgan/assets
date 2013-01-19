@@ -1,4 +1,8 @@
-components
+Vendor Management Governance
 ==========
 
-components
+Requirements
+--
+* Bower
+* Grunt
+ 
