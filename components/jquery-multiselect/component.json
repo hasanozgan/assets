@@ -1,0 +1,9 @@
+{
+  "name": "jquery-multiselect",
+  "version": "0.0.0",
+  "commit": "95b734f3ce030793c363738e027d42f75c862dc3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dio-el-claire/jquery-multiselect"
+  }
+}

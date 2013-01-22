@@ -13,3 +13,6 @@ bower update
 cd components/bootstrap; make
 
 grunt
+
+cp dist/components.js /projects/dahius/activist/app/assets/javascripts/ && cp dist/components.css
+/projects/dahius/activist/app/assets/stylesheets/

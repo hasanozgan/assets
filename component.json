@@ -3,8 +3,25 @@
   "version": "0.0.1",
   "dependencies": {
     "bootstrap": "~2.2.2",
-    "ember": "~1.0.0-pre.2",
     "fullcalendar": "latest",
-    "jquery": "latest"
+    "jquery": "latest",
+    "handlebars": "~1.0.0-rc.1",
+    "jquery-ui": "~1.10.0",
+    "bootstrap-datepicker": "latest",
+    "bootstrap-timepicker": "git://github.com/jdewit/bootstrap-timepicker.git",
+    "jquery.cookie": "~1.2.0",
+    "jquery.colorbox": "~1.3.23",
+    "bootstrap-colorpicker": "latest",
+    "chosen": "~0.9.11",
+    "jquery.sticky": "~1.0.0",
+    "jquery-multiselect": "latest",
+    "backbone": "~0.9.10",
+    "underscore": "~1.4.3",
+    "jquery.actual": "git://github.com/dreamerslab/jquery.actual.git#~1.0.11",
+    "antiscroll": "git://github.com/LearnBoost/antiscroll.git",
+    "marionette": "~1.0.0-rc3",
+    "html5shiv": "git://github.com/aFarkas/html5shiv.git#~3.6.1",
+    "Respond": "git://github.com/scottjehl/Respond.git#~1.2.0",
+    "excanvas": "git://github.com/arv/excanvas.git"
   }
 }

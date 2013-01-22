@@ -1,0 +1,9 @@
+{
+  "name": "excanvas",
+  "version": "0.0.0",
+  "commit": "e6f8a58dbce5858586564a1ba4543f122ef63225",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arv/excanvas.git"
+  }
+}

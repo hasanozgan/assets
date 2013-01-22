@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap-timepicker",
+  "version": "0.0.0",
+  "commit": "796688ba405916186aeae4326165b219f4c6659d",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdewit/bootstrap-timepicker.git"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "antiscroll",
+  "version": "0.0.0",
+  "commit": "22738867613c255734b9bc420f42f2b40f916bb8",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LearnBoost/antiscroll.git"
+  }
+}

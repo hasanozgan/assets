@@ -8,30 +8,60 @@ module.exports = function(grunt) {
 
     var STYLESHEET_FILE = BUILD_DIR+FILE_NAME+'.css';
     var JAVASCRIPT_FILE = BUILD_DIR+FILE_NAME+'.js';
+    var IE_JAVASCRIPT_FILE = BUILD_DIR+'ie.js';
+
 
     var STYLESHEET_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.css';
     var JAVASCRIPT_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.js';
+    var IE_JAVASCRIPT_MIN_FILE = BUILD_DIR+'.ie.min.js';
+
 
     var CSS_FILES  = [ 
                         'bootstrap/docs/assets/css/bootstrap.css',
-                        'bootstrap/docs/assets/css/bootstrap-responsive.css',
-                        'fullcalendar/fullcalendar.css',
+//                        'bootstrap/docs/assets/css/bootstrap-responsive.css',
+//                        'fullcalendar/fullcalendar.css',
+                        'bootstrap-datepicker/css/datepicker.css',
+                        'bootstrap-colorpicker/css/colorpicker.css',
+                        'bootstrap-timepicker/compiled/timepicker.css',
+                        'jquery-multiselect/jquery.multiselect.css',
+                        'antiscroll/antiscroll.css',
     '']; 
 
     var JS_FILES   = [ 
                         'jquery/jquery.js',
-                        'fullcalendar/fullcalendar.js', 
+                        'jquery-ui/ui/jquery-ui.custom.js',
                         'bootstrap/docs/assets/js/bootstrap.js', 
+                        'handlebars/handlebars.js',
+                        'fullcalendar/fullcalendar.js', 
+                        'jquery.actual/jquery.actual.js',
+                        'bootstrap-colorpicker/js/bootstrap-colorpicker.js',
+                        'bootstrap-datepicker/js/bootstrap-datepicker.js',
+                        'bootstrap-timepicker/js/bootstrap-timepicker.js',
+                        'antiscroll/antiscroll.js',
+                        'jquery.cookie/jquery.cookie.js',
+                        'jquery.sticky/jquery.sticky.js',
+                        'jquery-multiselect/jquery.multiselect.js',
+
+                        'underscore/underscore.js', 
+                        'backbone/backbone.js', 
     ''];
 
-  var getBase= function(files) {
-    var result = [];
-    for (var i=0; i < files.length; i++) {
-        result.push( BASE_DIR + files[i] );
-    }
+    var IE_JS_FILES = [ 
+                        'html5shiv/src/html5shiv.js',
+                        'html5shiv/src/html5shiv-printshiv.js',
+                        'Respond/respond.src.js',
+                        'excanvas/excanvas.js',
+    ''];
 
-    return result;
-  }  
+
+    var getBase= function(files) {
+        var result = [];
+        for (var i=0; i < files.length; i++) {
+            result.push( BASE_DIR + files[i] );
+        }
+
+        return result;
+    }  
 
   // Project configuration.
   grunt.initConfig({
@@ -54,11 +84,20 @@ module.exports = function(grunt) {
         src: getBase(JS_FILES),
         dest: JAVASCRIPT_FILE
       },
+      ie: {
+        src: getBase(IE_JS_FILES),
+        dest: IE_JAVASCRIPT_FILE
+      },
+
     },
     min: {
       js: {
         src: '<config:concat.js.dest>',
         dest: JAVASCRIPT_MIN_FILE
+      },
+      ie: {
+        src: '<config:concat.ie.dest>',
+        dest: IE_JAVASCRIPT_MIN_FILE
       }
     },
     watch: {
@@ -96,5 +135,4 @@ module.exports = function(grunt) {
 // Default task.
 ///min cssmin
   grunt.registerTask('default', 'inlineImg concat min cssmin');
-
 };
