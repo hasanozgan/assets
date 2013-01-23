@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
     var STYLESHEET_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.css';
     var JAVASCRIPT_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.js';
-    var IE_JAVASCRIPT_MIN_FILE = BUILD_DIR+'.ie.min.js';
+    var IE_JAVASCRIPT_MIN_FILE = BUILD_DIR+'ie.min.js';
 
 
     var CSS_FILES  = [ 
@@ -29,9 +29,14 @@ module.exports = function(grunt) {
 
     var JS_FILES   = [ 
                         'jquery/jquery.js',
-                        'jquery-ui/ui/jquery-ui.custom.js',
+//                        'jquery-ui/ui/jquery-ui.custom.js',
                         'bootstrap/docs/assets/js/bootstrap.js', 
                         'handlebars/handlebars.js',
+                        'underscore/underscore.js', 
+                        'backbone/backbone.js', 
+                        'marionette/lib/backbone.marionette.js',
+
+                        // Plugins
                         'fullcalendar/fullcalendar.js', 
                         'jquery.actual/jquery.actual.js',
                         'bootstrap-colorpicker/js/bootstrap-colorpicker.js',
@@ -42,8 +47,6 @@ module.exports = function(grunt) {
                         'jquery.sticky/jquery.sticky.js',
                         'jquery-multiselect/jquery.multiselect.js',
 
-                        'underscore/underscore.js', 
-                        'backbone/backbone.js', 
     ''];
 
     var IE_JS_FILES = [ 
