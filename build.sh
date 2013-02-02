@@ -8,7 +8,7 @@ command -v jshint >/dev/null 2>&1 || { echo >&2 "I require jshint but it's not i
 command -v jslint >/dev/null 2>&1 || { echo >&2 "I require jslint but it's not installed. 'npm install jslint -g' Aborting."; exit 1; }
 command -v uglifyjs >/dev/null 2>&1 || { echo >&2 "I require uglifyjs but it's not installed. 'npm install uglify-js -g' Aborting."; exit 1; }
 
-bower update
+bower install
 
 cd components/bootstrap; make
 

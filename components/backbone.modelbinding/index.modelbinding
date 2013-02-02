@@ -1,0 +1,1644 @@
+  
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>derickbailey/backbone.modelbinding · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="http://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="rqBw+FnO3UmFk9CRN1MMe7+pRkcQRRgbRfh2jQndIKg=" name="csrf-token" />
+
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-407693f9f73c33bc72d72bf9656fbf5ae05597d3.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-56ff2781ae95d3a31c723b6774df51dd407ef091.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+
+        <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-d61440caec5d2210a2242b084cdb2bc6597e00b7.js" type="text/javascript"></script>
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-3caac5eb6f4ff7cdd70b7b145f68d0e4cc0f9a28.js" type="text/javascript"></script>
+      
+
+        <link rel='permalink' href='/derickbailey/backbone.modelbinding/tree/279bf93d5e873ee96bd48c417f60c0f13e522b01'>
+    <meta property="og:title" content="backbone.modelbinding"/>
+    <meta property="og:type" content="githubog:gitrepository"/>
+    <meta property="og:url" content="https://github.com/derickbailey/backbone.modelbinding"/>
+    <meta property="og:image" content="https://secure.gravatar.com/avatar/e592bd1326b1e80188ed4c0bf26b9f75?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <meta property="og:site_name" content="GitHub"/>
+    <meta property="og:description" content="awesome model binding for Backbone.js. Contribute to backbone.modelbinding development by creating an account on GitHub."/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:site" content="@GitHub">
+    <meta property="twitter:title" content="derickbailey/backbone.modelbinding"/>
+
+    <meta name="description" content="awesome model binding for Backbone.js. Contribute to backbone.modelbinding development by creating an account on GitHub." />
+
+  <link href="https://github.com/derickbailey/backbone.modelbinding/commits/master.atom" rel="alternate" title="Recent Commits to backbone.modelbinding:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out   vis-public env-production  ">
+    <div id="wrapper">
+
+      
+
+      
+
+      
+
+      
+
+
+        <div class="header header-logged-out">
+          <div class="container clearfix">
+
+            <a class="header-logo-wordmark" href="https://github.com/">
+              <img alt="GitHub" class="github-logo-4x" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x.png?1359500886" />
+              <img alt="GitHub" class="github-logo-4x-hover" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x-hover.png?1359500886" />
+            </a>
+
+              
+<ul class="top-nav">
+    <li class="explore"><a href="https://github.com/explore">Explore GitHub</a></li>
+  <li class="search"><a href="https://github.com/search">Search</a></li>
+  <li class="features"><a href="https://github.com/features">Features</a></li>
+    <li class="blog"><a href="https://github.com/blog">Blog</a></li>
+</ul>
+
+
+            <div class="header-actions">
+                <a class="button primary" href="https://github.com/signup">Sign up for free</a>
+              <a class="button" href="https://github.com/login?return_to=%2Fderickbailey%2Fbackbone.modelbinding">Sign in</a>
+            </div>
+
+          </div>
+        </div>
+
+
+      
+
+      
+
+
+            <div class="site hfeed" itemscope itemtype="http://schema.org/WebPage">
+      <div class="hentry">
+        
+        <div class="pagehead repohead instapaper_ignore readability-menu">
+          <div class="container">
+            <div class="title-actions-bar">
+              
+
+
+<ul class="pagehead-actions">
+
+
+
+    <li>
+      <a href="/login?return_to=%2Fderickbailey%2Fbackbone.modelbinding"
+        class="minibutton js-toggler-target star-button entice tooltipped upwards"
+        title="You must be signed in to use this feature" rel="nofollow">
+        <span class="mini-icon mini-icon-star"></span>Star
+      </a>
+      <a class="social-count js-social-count" href="/derickbailey/backbone.modelbinding/stargazers">
+        707
+      </a>
+    </li>
+    <li>
+      <a href="/login?return_to=%2Fderickbailey%2Fbackbone.modelbinding"
+        class="minibutton js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="mini-icon mini-icon-fork"></span>Fork
+      </a>
+      <a href="/derickbailey/backbone.modelbinding/network" class="social-count">
+        73
+      </a>
+    </li>
+</ul>
+
+              <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+                <span class="repo-label"><span>public</span></span>
+                <span class="mega-icon mega-icon-public-repo"></span>
+                <span class="author vcard">
+                  <a href="/derickbailey" class="url fn" itemprop="url" rel="author">
+                  <span itemprop="title">derickbailey</span>
+                  </a></span> /
+                <strong><a href="/derickbailey/backbone.modelbinding" class="js-current-repository">backbone.modelbinding</a></strong>
+              </h1>
+            </div>
+
+            
+
+  <ul class="tabs">
+    <li><a href="/derickbailey/backbone.modelbinding" class="selected" highlight="repo_sourcerepo_downloadsrepo_commitsrepo_tagsrepo_branches">Code</a></li>
+    <li><a href="/derickbailey/backbone.modelbinding/network" highlight="repo_network">Network</a></li>
+    <li><a href="/derickbailey/backbone.modelbinding/pulls" highlight="repo_pulls">Pull Requests <span class='counter'>12</span></a></li>
+
+
+
+
+    <li><a href="/derickbailey/backbone.modelbinding/graphs" highlight="repo_graphsrepo_contributors">Graphs</a></li>
+
+
+  </ul>
+  
+  <div id="repo_details" class="metabox clearfix
+       ">
+      <div id="repo_details_loader" class="metabox-loader" style="display:none">Sending Request&hellip;</div>
+
+        <div class="repo-desc-homepage">
+          
+    <div class="repository-lang-stats">
+      <div class="repository-lang-stats-graph">
+      <span class="language-color" style="width:99.4%; background-color:#f15501;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:0.6%; background-color:#701516;" itemprop="keywords">Ruby</span>
+      </div>
+      <ol class="list-tip">
+        <li>
+            <a href="/languages/JavaScript">
+              <span class="color-block language-color" style="background-color:#f15501;"></span>
+              <span class="lang">JavaScript</span>
+              <span class="percent">99.4%</span>
+            </a>
+        </li>
+        <li>
+            <a href="/languages/Ruby">
+              <span class="color-block language-color" style="background-color:#701516;"></span>
+              <span class="lang">Ruby</span>
+              <span class="percent">0.6%</span>
+            </a>
+        </li>
+      </ol>
+    </div>
+
+<div id="repository_description" class="repository-description">
+    <p>awesome model binding for Backbone.js
+      <span id="read_more" style="display:none">&mdash; <a href="#readme">Read more</a></span>
+    </p>
+</div>
+
+
+<div class="repository-homepage" id="repository_homepage">
+  <p></p>
+</div>
+
+
+        </div>
+
+      <div class="edit-repo-desc-homepage" style="display:none">
+        <form accept-charset="UTF-8" action="/derickbailey/backbone.modelbinding/settings/update_meta" id="js-update-repo-meta-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="rqBw+FnO3UmFk9CRN1MMe7+pRkcQRRgbRfh2jQndIKg=" /></div>
+          <p class="error" style="display:none">Sorry, but there was a problem saving your changes.</p>
+          <input type="text" id="repository-description-field" class="description-field" name="repo_description" value="awesome model binding for Backbone.js" placeholder="Add a description to this repository">
+          <input type="text" id="repository-homepage-field" class="homepage-field" name="repo_homepage" value="" placeholder="Add a website to this repository">
+
+          <div class="edit-repo-actions">
+            <button type="submit" class="button save-button">Save changes</button>
+            <span class="cancel">
+              <a href="#" class="button danger">Cancel</a>
+            </span>
+          </div>
+</form>      </div>
+
+      
+<div class="url-box js-url-box">
+  <ul class="native-clones">
+      <li><a href="/derickbailey/backbone.modelbinding/archive/master.zip" class="button minibutton " icon_class="mini-icon-download" rel="nofollow" title="Download this repository as a zip file"><span class="mini-icon mini-icon-download"></span>ZIP</a>
+  </ul>
+
+  <div class="clone-urls js-clone-urls">
+    <span class="http_clone_url clone-url-button js-clone-url-button selected"><a href="https://github.com/derickbailey/backbone.modelbinding.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">HTTP</a></span>
+<span class="public_clone_url clone-url-button js-clone-url-button"><a href="git@github.com:derickbailey/backbone.modelbinding.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">SSH</a></span>
+<span class="public_clone_url clone-url-button js-clone-url-button"><a href="git://github.com/derickbailey/backbone.modelbinding.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=gitweb&amp;protocol_type=clone">Git Read-Only</a></span>
+    <span class="clone-url">
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" value="https://github.com/derickbailey/backbone.modelbinding.git" >
+    </span>
+    <span class="clone-url-button">
+      <span class="js-zeroclipboard url-box-clippy zeroclipboard-button" data-clipboard-text="https://github.com/derickbailey/backbone.modelbinding.git" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
+    </span>
+  </div>
+  <p class="url-description"><span class="bold js-clone-url-permission">Read-Only</span> access</p>
+</div>
+
+        </div>
+
+<div class="tabnav">
+
+  <span class="tabnav-right">
+    <ul class="tabnav-tabs">
+          <li><a href="/derickbailey/backbone.modelbinding/tags" class="tabnav-tab" highlight="repo_tags">Tags <span class="counter ">26</span></a></li>
+    </ul>
+    
+  </span>
+
+  <div class="tabnav-widget scope">
+
+
+    <div class="select-menu js-menu-container js-select-menu js-branch-menu">
+      <a class="minibutton select-menu-button js-menu-target" data-hotkey="w" data-ref="master">
+        <span class="mini-icon mini-icon-branch"></span>
+        <i>branch:</i>
+        <span class="js-select-button">master</span>
+      </a>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container js-select-menu-pane">
+
+        <div class="select-menu-modal js-select-menu-pane">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Switch branches/tags</span>
+            <span class="mini-icon mini-icon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-filters">
+            <div class="select-menu-text-filter">
+              <input type="text" id="commitish-filter-field" class="js-select-menu-text-filter js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+            </div> <!-- /.select-menu-text-filter -->
+            <div class="select-menu-tabs">
+              <ul>
+                <li class="select-menu-tab">
+                  <a href="#" data-filter="branches" class="js-select-menu-tab selected">Branches</a>
+                </li>
+                <li class="select-menu-tab">
+                  <a href="#" data-filter="tags" class="js-select-menu-tab">Tags</a>
+                </li>
+              </ul>
+            </div><!-- /.select-menu-tabs -->
+          </div><!-- /.select-menu-filters -->
+
+          <div class="select-menu-list js-filter-tab js-filter-branches css-truncate" data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+
+
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                <a href="/derickbailey/backbone.modelbinding/tree/data-bind-event" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="data-bind-event" rel="nofollow" title="data-bind-event">data-bind-event</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                <a href="/derickbailey/backbone.modelbinding/tree/dev" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="dev" rel="nofollow" title="dev">dev</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                <a href="/derickbailey/backbone.modelbinding/tree/formatter" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="formatter" rel="nofollow" title="formatter">formatter</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-item js-navigation-item js-navigation-target selected">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                <a href="/derickbailey/backbone.modelbinding/tree/master" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" rel="nofollow" title="master">master</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                <a href="/derickbailey/backbone.modelbinding/tree/phoenix" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="phoenix" rel="nofollow" title="phoenix">phoenix</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-no-results js-not-filterable">Nothing to show</div>
+          </div> <!-- /.select-menu-list -->
+
+
+          <div class="select-menu-list js-filter-tab js-filter-tags css-truncate" data-filterable-for="commitish-filter-field" data-filterable-type="substring" style="display:none;">
+
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.5.0" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.5.0" rel="nofollow" title="v0.5.0">v0.5.0</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.4.3" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.4.3" rel="nofollow" title="v0.4.3">v0.4.3</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.4.2" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.4.2" rel="nofollow" title="v0.4.2">v0.4.2</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.4.1" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.4.1" rel="nofollow" title="v0.4.1">v0.4.1</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.4.0" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.4.0" rel="nofollow" title="v0.4.0">v0.4.0</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.10" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.10" rel="nofollow" title="v0.3.10">v0.3.10</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.9" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.9" rel="nofollow" title="v0.3.9">v0.3.9</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.8" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.8" rel="nofollow" title="v0.3.8">v0.3.8</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.7" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.7" rel="nofollow" title="v0.3.7">v0.3.7</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.6" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.6" rel="nofollow" title="v0.3.6">v0.3.6</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.5" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.5" rel="nofollow" title="v0.3.5">v0.3.5</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.4" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.4" rel="nofollow" title="v0.3.4">v0.3.4</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.3" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.3" rel="nofollow" title="v0.3.3">v0.3.3</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.2" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.2" rel="nofollow" title="v0.3.2">v0.3.2</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.1" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.1" rel="nofollow" title="v0.3.1">v0.3.1</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.3.0" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.3.0" rel="nofollow" title="v0.3.0">v0.3.0</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.2.4" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.2.4" rel="nofollow" title="v0.2.4">v0.2.4</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.2.3" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.2.3" rel="nofollow" title="v0.2.3">v0.2.3</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.2.2" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.2.2" rel="nofollow" title="v0.2.2">v0.2.2</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.2.1" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.2.1" rel="nofollow" title="v0.2.1">v0.2.1</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.2.0" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.2.0" rel="nofollow" title="v0.2.0">v0.2.0</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.1.4" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.1.4" rel="nofollow" title="v0.1.4">v0.1.4</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.1.3" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.1.3" rel="nofollow" title="v0.1.3">v0.1.3</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.1.2" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.1.2" rel="nofollow" title="v0.1.2">v0.1.2</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.1.1" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.1.1" rel="nofollow" title="v0.1.1">v0.1.1</a>
+
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
+                    <a href="/derickbailey/backbone.modelbinding/tree/v0.1.0" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v0.1.0" rel="nofollow" title="v0.1.0">v0.1.0</a>
+
+              </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-no-results js-not-filterable">Nothing to show</div>
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+  </div> <!-- /.scope -->
+
+  <ul class="tabnav-tabs">
+    <li><a href="/derickbailey/backbone.modelbinding" class="selected tabnav-tab" highlight="repo_source">Files</a></li>
+    <li><a href="/derickbailey/backbone.modelbinding/commits/master" class="tabnav-tab" highlight="repo_commits">Commits</a></li>
+    <li><a href="/derickbailey/backbone.modelbinding/branches" class="tabnav-tab" highlight="repo_branches" rel="nofollow">Branches <span class="counter ">5</span></a></li>
+  </ul>
+
+</div>
+
+  
+  
+  
+
+
+            
+          </div>
+        </div><!-- /.repohead -->
+
+        <div id="js-repo-pjax-container" class="container context-loader-container" data-pjax-container>
+          
+
+
+<!-- tree commit key: views10/v8/tree:v21:2922d2fa1cc1f2df6f8e397217149440 -->
+
+  <div id="slider">
+      <div class="frame-meta">
+          
+
+
+
+          <p class="history-link js-history-link-replace">
+<a href="/derickbailey/backbone.modelbinding/commits/master">                <span class="mini-icon mini-icon-history tooltipped" title="Browse commits for this branch"></span>
+                247 commits
+</a>          </p>
+
+        <div class="breadcrumb">
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/derickbailey/backbone.modelbinding" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">backbone.modelbinding</span></a></span></span> / <form action="/login?return_to=%2Fderickbailey%2Fbackbone.modelbinding" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span class="js-new-blob-submit mini-icon mini-icon-new-file"></span></form>
+        </div>
+
+        <a href="/derickbailey/backbone.modelbinding/find/master"
+           class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
+
+      </div><!-- ./.frame-meta -->
+
+      
+
+  <div class="frames">
+    <div class="frame" data-permalink-url="/derickbailey/backbone.modelbinding/tree/279bf93d5e873ee96bd48c417f60c0f13e522b01" data-title="derickbailey/backbone.modelbinding · GitHub" data-type="tree">
+
+      <div class="bubble tree-browser-wrapper">
+
+      <table class="tree-browser css-truncate" cellpadding="0" cellspacing="0">
+        <thead>
+            
+  <div class="commit commit-tease js-details-container">
+    <p class="commit-title ">
+        <a href="/derickbailey/backbone.modelbinding/commit/279bf93d5e873ee96bd48c417f60c0f13e522b01" class="message">Merge pull request </a><a title="Additional Option" href="https://github.com/derickbailey/backbone.modelbinding/issues/87" class="issue-link">#87</a><a href="/derickbailey/backbone.modelbinding/commit/279bf93d5e873ee96bd48c417f60c0f13e522b01" class="message"> from brianp/master</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Additional Option</pre></div>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="279bf93d5e873ee96bd48c417f60c0f13e522b01" data-copied-hint="copied!" title="Copy SHA"><span class="mini-icon mini-icon-clipboard"></span></span>
+      <a href="/derickbailey/backbone.modelbinding/commit/279bf93d5e873ee96bd48c417f60c0f13e522b01" class="sha-block">latest commit <span class="sha">279bf93d5e</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://secure.gravatar.com/avatar/e592bd1326b1e80188ed4c0bf26b9f75?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" />
+        <span class="author-name"><a href="/derickbailey" rel="author">derickbailey</a></span>
+        authored <time class="js-relative-date updated" datetime="2012-07-05T15:23:32-07:00" title="2012-07-05 15:23:32">July 05, 2012</time>
+
+      </div>
+    </div>
+  </div>
+
+        </thead>
+
+        
+
+<tbody class="tree-entries js-deferred-content"
+    data-url="/derickbailey/backbone.modelbinding/tree-commits/master">
+
+
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/tree/master/public" class="js-directory-link js-slide-to css-truncate-target" id="4c9184f37cff01bcdc32dc486ec36961-231561c7cf31640895b0d9d0b46766ebcb18c398" title="public">public</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-01-31T13:17:35-08:00" title="2012-01-31 13:17:35">January 31, 2012</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/0eb1f805dce4b12e0235af379a4232bef18ab783" class="message">updated jquery to v1.7.1</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/tree/master/spec" class="js-directory-link js-slide-to css-truncate-target" id="b979c2934ac0b4ba3f08dabfdd1b2299-11b41d08a9670b2cd33da7ed794332ca4508ca9a" title="spec">spec</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-01-31T13:26:31-08:00" title="2012-01-31 13:26:31">January 31, 2012</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/cda627419e5ca838e713420e07971a6f9fe25c43" class="message">fixed the sample app code, and all tests passing again</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/.gitignore" class="js-directory-link js-slide-to css-truncate-target" id="a084b794bc0759e7a6b77810e01874f2-312359b68c31ddfc67d1c62fbc7b2c8084d57572" title=".gitignore">.gitignore</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2011-12-22T09:01:53-08:00" title="2011-12-22 09:01:53">December 22, 2011</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/5fc214e103a76121700fde1c8b44fb6759d60872" class="message">minified v0.4.2, with amd support</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/.rvmrc" class="js-directory-link js-slide-to css-truncate-target" id="04f9c504323c893a9357f014782f3512-a11d225e5cb5b9ab9157d36dfefcb32c2b736519" title=".rvmrc">.rvmrc</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2011-07-23T18:19:25-07:00" title="2011-07-23 18:19:25">July 23, 2011</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/376574a180e91832e989ee24014120a696bb647c" class="message">initial commit / structure</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/Gemfile" class="js-directory-link js-slide-to css-truncate-target" id="8b7db4d5cc4b8f6dc8feb7030baa2478-578fdaf29e27031bbed960394839ca69915271d2" title="Gemfile">Gemfile</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2011-08-11T14:18:35-07:00" title="2011-08-11 14:18:35">August 11, 2011</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/a552cb04b92d440e9359fe5b6a6e25552555a3d9" class="message">adding rake to Gemfile so bundle exec rake doesn't complain</a>
+          [<a href="/jtanner" rel="author">jtanner</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/Rakefile" class="js-directory-link js-slide-to css-truncate-target" id="52c976fc38ed2b4e3b1192f8a8e24cff-12dc73a6f56f0c2c4b75c6e17d672ff032b812bd" title="Rakefile">Rakefile</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2011-07-23T18:56:28-07:00" title="2011-07-23 18:56:28">July 23, 2011</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/c5ee81da120f7db545435052a6354a589d73b05a" class="message">note to self: it's a javascript plugin, not a gem. :-/</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/backbone.modelbinding.js" class="js-directory-link js-slide-to css-truncate-target" id="281715c3770bcabb0af89f2697fcfcf8-db1f68c8933ee353d2ec0aea22f4c5a8d50d5f66" title="backbone.modelbinding.js">backbone.modelbinding.js</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-01-31T13:33:18-08:00" title="2012-01-31 13:33:18">January 31, 2012</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/fce1b94d6a9882307229f6b487950a9b61139602" class="message">minified v0.5.0 for release</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/backbone.modelbinding.min.js" class="js-directory-link js-slide-to css-truncate-target" id="c039d10edc519d92f8b2b542f382e640-c3cd09ac2f38eb05a2903f198354f889bab2fe8f" title="backbone.modelbinding.min.js">backbone.modelbinding.min.js</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-01-31T13:33:18-08:00" title="2012-01-31 13:33:18">January 31, 2012</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/fce1b94d6a9882307229f6b487950a9b61139602" class="message">minified v0.5.0 for release</a>
+          [<a href="/derickbailey" rel="author">derickbailey</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/derickbailey/backbone.modelbinding/blob/master/readme.md" class="js-directory-link js-slide-to css-truncate-target" id="0730bb7c2e8f9ea2438b52e419dd86c9-823112c38394ff7561150b54d39cdd7dfb4cacd0" title="readme.md">readme.md</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-07-05T14:07:45-07:00" title="2012-07-05 14:07:45">July 05, 2012</time></td>
+
+      <td class="message">
+          <a href="/derickbailey/backbone.modelbinding/commit/6c959c44215b44446b334a59881255d58850a1ba" class="message">Fix inconsistant pluralization.</a>
+          [<a href="/brianp" rel="author">brianp</a>]
+
+      </td>
+    </tr>
+</tbody>
+
+      </table>
+      </div>
+
+        <div id="readme" class="clearfix announce instapaper_body md">
+          <span class="name"><span class="mini-icon mini-icon-readme"></span> readme.md</span><article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="backbonemodelbinding-project-status-abandoned" class="anchor" href="#backbonemodelbinding-project-status-abandoned"><span class="mini-icon mini-icon-link"></span></a>Backbone.ModelBinding Project Status: Abandoned</h1>
+
+<p>I'm officially abandoning this project. After many months of 
+purposely ignoring the growing issues list, due to lack of time 
+and lack of me using this library anymore, I'm no longer going 
+to support it.</p>
+
+<p>If anyone in the community wishes to pick it up and take over,
+feel free - and good luck. The code base is a mess. It's bloated,
+it's slow, it's horrendously difficult to change, and the issues
+that have mounted up are nearly impossible to fix without adding
+to the giant mess. The only reasonable options for fixing this
+mess, in my opinion, are to take the basic ideas and write
+something far less clunky and cumbersome, from scratch.</p>
+
+<p>On this lines, there are other options available. For example,
+<a href="https://github.com/theironcook/Backbone.ModelBinder">Backbone.ModelBinder</a>
+or <a href="http://rivetsjs.com/">Rivets.js</a>.</p>
+
+<p>I recommend looking at those projects, or any of the others that
+are actively maintained.</p>
+
+<h2>
+<a name="about-backbonemodelbinding" class="anchor" href="#about-backbonemodelbinding"><span class="mini-icon mini-icon-link"></span></a>About Backbone.ModelBinding</h2>
+
+<p>Convention-based, awesome model binding for <a href="http://documentcloud.github.com/backbone">Backbone.js</a>,
+inspired by <a href="http://xtargets.com/2011/06/11/binding-model-attributes-to-form-elements-with-backbone-js/">Brad Phelan</a>,
+<a href="http://knockoutjs.com/">Knockout.js</a> data-binding capabilities, 
+and <a href="http://userinexperience.com/?p=633">Brandon Satrom</a>'s work with Knockout.</p>
+
+<p>This plugin provides a simple, convention based mechanism to create bi-directional
+binding between your Backbone models and your HTML elements, including form inputs, 
+divs, spans, and so on. </p>
+
+<p>Instead of writing the same boiler plate code to read from your form inputs and
+populate the model attributes, for every input on your form, you can make a 
+single call to <code>Backbone.ModelBinding.bind(myView)</code> and have all of your inputs
+automatically wired up. Any change you make to a form input will populate a
+corresponding model attribute for you. The binding is bi-directional, as well.
+This means that changes to your underlying model will be propagated to your
+form inputs without having to manually bind to your model's <code>change</code> events.</p>
+
+<p>If you're looking for Knockout.js-style <code>data-bind</code> attributes, for Backbone,
+then this is the plugin for you. Backbone.ModelBinding provides some very basic
+support for <code>data-bind</code> attributes, allowing your Backbone model <code>change</code> events
+to modify nearly any HTML element on your page. Whether it's updating the text
+of a <code>&lt;div&gt;</code>, or changing the css class of an <code>&lt;img&gt;</code> tag, the <code>data-bind</code> 
+support provides a very powerful and flexible means of creating a very rich
+user experience.</p>
+
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="mini-icon mini-icon-link"></span></a>Getting Started</h2>
+
+<p>It's easy to get up and running. You only need to have Backbone (including underscore.js - 
+a requirement for Backbone) and jQuery in your page before including the backbone.modelbinding
+plugin.</p>
+
+<h3>
+<a name="prerequisites" class="anchor" href="#prerequisites"><span class="mini-icon mini-icon-link"></span></a>Prerequisites</h3>
+
+<ul>
+<li>Backbone.js v0.9.0</li>
+<li>Underscore.js v1.3.1</li>
+<li>jQuery v1.7.1</li>
+</ul><p>This is a plugin for Backbone.js and is built and tested against these versions of these
+libraries. At this point, I make no guarantees of it working with any version of Backbone or jQuery.</p>
+
+<h3>
+<a name="get-the-modelbinding-plugin" class="anchor" href="#get-the-modelbinding-plugin"><span class="mini-icon mini-icon-link"></span></a>Get The ModelBinding Plugin</h3>
+
+<p>Download the <code>backbone.modelbinding.js</code> file from this github repository and copy it into 
+your javascripts folder. Add the needed <code>&lt;script&gt;</code> tag to bring the plugin into any page
+that wishes to use it. Be sure to include the modelbinding file <em>after</em> the backbone.js file.</p>
+
+<h3>
+<a name="model-binding" class="anchor" href="#model-binding"><span class="mini-icon mini-icon-link"></span></a>Model Binding</h3>
+
+<p>The model binding code is executed with a call to <code>Backbone.ModelBinding.bind(view)</code>. There are
+several places that it can be called from, depending on your circumstances.</p>
+
+<p>All of the element binding happens within the context of the view's <code>el</code>, therefore you must
+call the model binding code after your view's <code>el</code> has been populated with the elements that
+will be bound to.</p>
+
+<h4>
+<a name="binding-after-rendering" class="anchor" href="#binding-after-rendering"><span class="mini-icon mini-icon-link"></span></a>Binding After Rendering</h4>
+
+<p>If your view modifies the html contents of the view's <code>el</code> in the <code>render</code> method, you should 
+call the model binding after the modifications are made:</p>
+
+<pre><code>SomeView = Backbone.View.extend({
+  render: function(){
+    // ... render your form here
+    $(this.el).html("... some html and content goes here ... ");
+
+    // execute the model bindings
+    Backbone.ModelBinding.bind(this);
+  }
+});
+</code></pre>
+
+<h4>
+<a name="binding-a-view-that-does-not-render" class="anchor" href="#binding-a-view-that-does-not-render"><span class="mini-icon mini-icon-link"></span></a>Binding A View That Does Not Render</h4>
+
+<p>If, however, your view has an <code>el</code> that represents an existing element in your html, and the
+contents of the <code>el</code> are not modified during a call to <code>render</code>, then you can make the call to
+the model binding code in the initializer or anywhere else.</p>
+
+<pre><code>&lt;form id="some-form"&gt;
+  Name: &lt;input id="name"&gt;
+&lt;/form&gt;
+</code></pre>
+
+<pre><code>FormView = Backbone.View.extend({
+  el: "#some-form",
+
+  initialize: function(){
+    Backbone.ModelBinding.bind(this);
+  }
+});
+</code></pre>
+
+<h4>
+<a name="binding-from-outside-a-view" class="anchor" href="#binding-from-outside-a-view"><span class="mini-icon mini-icon-link"></span></a>Binding From Outside A View</h4>
+
+<p>There is no requirement for the model binding code to be called from within a view directly.
+You can bind the view from external code, like this:</p>
+
+<pre><code>FormView = Backbone.View.extend({
+  el: "#some-form",
+});
+
+formView = new FormView();
+Backbone.ModelBinding.bind(formView);
+</code></pre>
+
+<h3>
+<a name="model-unbinding" class="anchor" href="#model-unbinding"><span class="mini-icon mini-icon-link"></span></a>Model Unbinding</h3>
+
+<p>When your view has completed its work and is ready to be removed from the DOM, you not only
+need to unbind your view's events (handled through the view's <code>remove</code> method, typically), you
+also need to unbind the model events that are bound in the view. </p>
+
+<p>Backbone.ModelBinding can unbind its own events through a simple call to 
+<code>Backbone.ModelBinding.unbind(view)</code>. If you do not call this method when your view is being
+closed / removed / cleaned up, then you may end up with memory leaks and zombie views that
+are still responding to model change events.</p>
+
+<pre><code>FormView = Backbone.View.extend({
+  el: "#some-form",
+
+  initialize: function(){
+    Backbone.ModelBinding.bind(this);
+  },
+
+  close: function(){
+    this.remove();
+    this.unbind();
+    Backbone.ModelBinding.unbind(this);
+  }
+});
+</code></pre>
+
+<h2>
+<a name="convention-bindings" class="anchor" href="#convention-bindings"><span class="mini-icon mini-icon-link"></span></a>Convention Bindings</h2>
+
+<p>Automatic bi-directional binding between your form input and your model. </p>
+
+<p>The convention-based binding requires no additional configuration or code in your
+view, other than calling the <code>Backbone.ModelBinding.bind(this);</code> as noted above.
+With the conventions binding, your <code>&lt;input&gt;</code> fields will be bound to the views model
+by the id of the input. </p>
+
+<p>For example:</p>
+
+<pre><code>// something.html
+
+&lt;input id='name'&gt;
+
+// something.js
+
+SomeModel = Backbone.Model.extend();
+
+SomeView = Backbone.View.extend({
+  render: function(){
+    // ... render your form here
+
+    // execute the defined bindings
+    Backbone.ModelBinding.bind(this);
+  }
+});
+
+model = new SomeModel();
+view = new SomeView({model: model});
+
+model.set({name: "some name"});
+
+</code></pre>
+
+<p>In this example, when <code>model.set</code> is called to set the name, "some name" will appear
+in the <code>#name</code> input field. Similarly, when the <code>#name</code> input field is changed, the
+value entered into that field will be sent to the model's <code>name</code> property.</p>
+
+<h2>
+<a name="data-bind-attributes" class="anchor" href="#data-bind-attributes"><span class="mini-icon mini-icon-link"></span></a>Data-Bind Attributes</h2>
+
+<p>Backbone.ModelBinding supports Knockout-style data-bind attributes on any arbitrary
+HTML element. These bindings will populate any attribute, the text, or HTML contents
+of an HTML element based on your configurations. This is particularly useful when a
+model that is being edited is also being displayed elsewhere on the screen.</p>
+
+<p>To bind an element to a model's properties, add a <code>data-bind</code> attribute to the element
+and specify what should be updated with which model property using an <code>elementAttr modelAttr</code>
+format. For example <code>&lt;span data-bind="text name"&gt;</code> will update the span's text with
+the model's name property, when the model's name changes.</p>
+
+<pre><code>&lt;form&gt;
+  &lt;input type="text" id="name"&gt;
+&lt;/form&gt;
+Name: &lt;span data-bind="text name"&gt;
+
+SomeView = Backbone.View.extend({
+  // ... 
+
+  render: function(){
+    // ... 
+    Backbone.ModelBinding.bind(this);
+  }
+});
+
+someModel = new SomeModel();
+someView = new SomeView({model: someModel});
+</code></pre>
+
+<p>In this example, the model's <code>name</code> will be updated when you type into the text box
+and then tab or click away from it (to fire the change event). When the model's <code>name</code>
+property is updated, the <code>data-bind</code> convention will pick up the change and set
+the text of the <code>span</code> to the model's name.</p>
+
+<h3>
+<a name="data-bind-multiple-attributes" class="anchor" href="#data-bind-multiple-attributes"><span class="mini-icon mini-icon-link"></span></a>Data-Bind Multiple Attributes</h3>
+
+<p>Multiple attributes can be specified for a single element's <code>data-bind</code> by separating
+each with a <code>;</code> (semi-colon). For example:</p>
+
+<pre><code>&lt;form&gt;
+  &lt;input type="text" id="name"&gt;
+&lt;/form&gt;
+Name: &lt;span data-bind="text name; class name"&gt;
+
+SomeView = Backbone.View.extend({
+  // ... 
+
+  render: function(){
+    // ... 
+    Backbone.ModelBinding.bind(this);
+  }
+});
+
+someModel = new SomeModel();
+someView = new SomeView({model: someModel});
+</code></pre>
+
+<p>In this example, both the text and the css class will be updated when you change
+the name input. You can data-bind as many attributes as you need, in this manner.</p>
+
+<h3>
+<a name="configurating-the-data-bind-selector" class="anchor" href="#configurating-the-data-bind-selector"><span class="mini-icon mini-icon-link"></span></a>Configurating the data-bind selector</h3>
+
+<p>By default, the data-bind capabilities looks for a <code>data-bind</code> attribute on the
+HTML elements being bound. This is configurable, though:</p>
+
+<pre><code>Backbone.ModelBinding.Conventions.databind.selector = "[my-binder]";
+</code></pre>
+
+<p>This example will look for elements with an attribute of <code>my-binder</code> instead of
+<code>data-bind</code>.</p>
+
+<pre><code>&lt;div my-binder="text someAttr"&gt;&lt;/div&gt;
+</code></pre>
+
+<h3>
+<a name="special-cases-for-data-bind" class="anchor" href="#special-cases-for-data-bind"><span class="mini-icon mini-icon-link"></span></a>Special Cases For data-bind</h3>
+
+<p>There are several special cases for the data-bind attribute. These allow a little more
+functionality than just setting an attribute on an element. </p>
+
+<ul>
+<li>(default) - if you only specify the model property, defaults to the text of the html element</li>
+<li>text - replace the text contents of the element</li>
+<li>html - replace the html contents of the element</li>
+<li>enabled - enable or disable the html element</li>
+</ul><h4>
+<a name="default" class="anchor" href="#default"><span class="mini-icon mini-icon-link"></span></a>(default)</h4>
+
+<p>If you only specify the model's property in the data-bind attribute, then the data-bind
+will bind the value of that model property to the <code>text</code> of the html element.</p>
+
+<pre><code>&lt;div data-bind="name"/&gt;
+</code></pre>
+
+<p>See the document for data-bind text, below.</p>
+
+<h4>
+<a name="text" class="anchor" href="#text"><span class="mini-icon mini-icon-link"></span></a>text</h4>
+
+<p>If you set the data-bind attribute to use <code>text</code>, it will replace the text contents of the
+html element instead of just setting an element attribute.</p>
+
+<pre><code>&lt;div id="someDiv" data-bind="text someProperty"&gt;&lt;/div&gt;
+
+
+someModel.set({someProperty: "some value"});
+</code></pre>
+
+<h4>
+<a name="html" class="anchor" href="#html"><span class="mini-icon mini-icon-link"></span></a>html</h4>
+
+<p>If you set the data-bind attribute to use <code>html</code>, it will replace the entire
+inner html of the html element, instead of just setting an element attribute.</p>
+
+<pre><code>&lt;div id="someDiv" data-bind="html someProperty"&gt;&lt;/div&gt;
+
+
+someModel.set({someProperty: "some value"});
+</code></pre>
+
+<h4>
+<a name="enabled" class="anchor" href="#enabled"><span class="mini-icon mini-icon-link"></span></a>enabled</h4>
+
+<p>This special case breaks the html element standard of using a <code>disabled</code> attribute, specifically
+to inverse the logic used for enabling / disabling an element, to keep the data-bind attribute
+clean and easy to read.</p>
+
+<p>If you have a model with a property that indicates a negative state, such as <code>invalid</code>, then you
+can use a data-bind attribute of <code>disabled</code>:</p>
+
+<pre><code>&lt;button id="someButton" data-bind="disabled invalid"&gt;&lt;/div&gt;
+
+
+someModel.set({invalid: true});
+</code></pre>
+
+<p>However, some developers prefer to use positive state, such as <code>isValid</code>. In this case, setting
+the disabled attribute to the model's isValid property would result in the button being disabled
+when the model is valid and enabled when the model is not valid. To correct this, a special case
+has been added to enable and disable an element with <code>enabled</code>.</p>
+
+<pre><code>&lt;button id="someButton" data-bind="enabled isValid"&gt;&lt;/div&gt;
+
+
+someModel.set({isValid: false});
+</code></pre>
+
+<p>This will disable the button when the model is invalid and enable the button when the model is
+valid.</p>
+
+<h4>
+<a name="displayed" class="anchor" href="#displayed"><span class="mini-icon mini-icon-link"></span></a>displayed</h4>
+
+<p>This allows you to specify that an element should be shown or hidden by setting the css
+of the element according to the value of the model properties specified.</p>
+
+<pre><code>&lt;div data-bind="displayed isValid" /&gt;
+
+someModel.set({isValid: false});
+</code></pre>
+
+<p>When the model's property is set to false, the HTML element's <code>display</code> css will be set
+to <code>none</code>. When the model's property is set to true, the HTML element's <code>display</code> css
+will be set to <code>block</code>.</p>
+
+<h4>
+<a name="hidden" class="anchor" href="#hidden"><span class="mini-icon mini-icon-link"></span></a>hidden</h4>
+
+<p>This is the inverse of <code>displayed</code>.</p>
+
+<pre><code>&lt;div data-bind="hidden isValid" /&gt;
+
+someModel.set({isValid: true});
+</code></pre>
+
+<p>When the model's property is set to false, the HTML element's <code>display</code> css will be set
+to <code>block</code>. When the model's property is set to true, the HTML element's <code>display</code> css
+will be set to <code>none</code>.</p>
+
+<h3>
+<a name="data-bind-to-any-model-event" class="anchor" href="#data-bind-to-any-model-event"><span class="mini-icon mini-icon-link"></span></a>Data-Bind To Any Model Event</h3>
+
+<p>In addition to binding model attributes, you can use the data-bind functionality to
+bind to any arbitrary event that the model fires. This is done with the syntax:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">data-bind=</span><span class="s">"text event:foo"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</pre></div>
+
+<p>where <code>foo</code> is the event that is triggered from the model. The first parameter
+of the event will be used as the data for the element.</p>
+
+<div class="highlight"><pre><span class="nx">model</span><span class="p">.</span><span class="nx">trigger</span><span class="p">(</span><span class="s2">"foo"</span><span class="p">,</span> <span class="s2">"bar"</span><span class="p">);</span>
+</pre></div>
+
+<p>This will cause the above data-binding to produce <code>&lt;div&gt;bar&lt;/div&gt;</code>.</p>
+
+<h3>
+<a name="data-bind-substitutions" class="anchor" href="#data-bind-substitutions"><span class="mini-icon mini-icon-link"></span></a>Data-Bind Substitutions</h3>
+
+<p>If a model's property is <code>unset</code>, the data-bind may not update correctly when using <code>text</code> or <code>html</code>
+as the bound attribute of the element.</p>
+
+<pre><code>&lt;div data-bind="text something"&gt;&lt;/div&gt;
+
+model.set({something: "whatever"});
+model.unset("something");
+</code></pre>
+
+<p>The result will be a div with it's text set to "". this is handled through the data-bind's 
+substitutions for undefined values. The default substitution is to replace an undefined
+value with an empty string. However, this can be per attribute:</p>
+
+<pre><code>&lt;div data-bind="text something"&gt;&lt;/div&gt;
+&lt;div data-bind="html something"&gt;&lt;/div&gt;
+
+Backbone.ModelBinding.Configuration.dataBindSubst({
+  text: "undefined. setting text to this",
+  html: "&amp;nbsp;"
+});
+model.set({something: "whatever"});
+model.unset("something");
+</code></pre>
+
+<p>The result of this example will be a div that displays "undefined. setting the text to this" and a
+div whose contents is a single space, instead of being empty.</p>
+
+<h2>
+<a name="form-binding-conventions" class="anchor" href="#form-binding-conventions"><span class="mini-icon mini-icon-link"></span></a>Form Binding Conventions</h2>
+
+<p>The following form input types are supported by the form convention binder:</p>
+
+<ul>
+<li>text</li>
+<li>textarea</li>
+<li>password</li>
+<li>checkbox</li>
+<li>select </li>
+<li>radio button groups</li>
+</ul><p>HTML5</p>
+
+<ul>
+<li>number</li>
+<li>range</li>
+<li>email</li>
+<li>url</li>
+<li>tel</li>
+<li>search</li>
+</ul><p>Radio buttons are group are assumed to be grouped by the <code>name</code> attribute of the 
+radio button items. </p>
+
+<p>Select boxes will populate 2 separate fields into the model that they are bound to.
+The standard <code>#fieldid</code> will be populated with the selected value. An additional
+<code>{#fieldid}_text</code> will be populated with the text from the selected item. For example,
+a selected option of </p>
+
+<pre><code>&lt;select id='company'&gt;
+  &lt;option value="foo_bar"&gt;Foo Bar Widgets, Inc.&lt;/option&gt;
+  ...
+&lt;/select&gt;
+</code></pre>
+
+<p>will populate the <code>company</code> property of the model with "foo_bar", and will populate
+the <code>company_text</code> property of the model with "Foo Bar Widgets, Inc."</p>
+
+<p>There is no support for hidden fields at the moment, because there is no 'change' event
+that jQuery can listen to on a hidden field.</p>
+
+<h3>
+<a name="configuring-the-bound-attributes" class="anchor" href="#configuring-the-bound-attributes"><span class="mini-icon mini-icon-link"></span></a>Configuring The Bound Attributes</h3>
+
+<p>The convention binding system allows you to specify the attribute to use for the convention, by
+the input type. The default configuration is:</p>
+
+<pre><code>{
+  text: "id",
+  textarea: "id",
+  password: "id",
+  radio: "name",
+  checkbox: "id",
+  select: "id"
+}
+</code></pre>
+
+<p>You can override this configuration and use any attribute you wish, by specifying any or all of
+these input types when you call the model binding. This is useful when you have field ids that
+do not match directly to the model properties. </p>
+
+<h4>
+<a name="override-all-element-binding-attributes" class="anchor" href="#override-all-element-binding-attributes"><span class="mini-icon mini-icon-link"></span></a>Override All Element Binding Attributes</h4>
+
+<p>The following will use use the <code>class</code> attribute's value as the binding for all input field:</p>
+
+<pre><code>SomeView = Backbone.View.extend({
+  render: function(){
+    // ... some rendering here
+    Backbone.ModelBinding.bind(this, { all: "class" });
+  }
+});
+
+&lt;input type="text" id="the_model_name" class="name"&gt;
+</code></pre>
+
+<p>If the same convention needs to be used throughout an application, and not just withing a single
+view, the configuration can be set at a global level:</p>
+
+<pre><code>Backbone.ModelBinding.Configuration.configureAllBindingAttributes("class");
+</code></pre>
+
+<h4>
+<a name="override-individual-element-binding-attributes" class="anchor" href="#override-individual-element-binding-attributes"><span class="mini-icon mini-icon-link"></span></a>Override Individual Element Binding Attributes</h4>
+
+<p>The following will use a <code>modelAttr</code> attribute value as the convention for text boxes, only.</p>
+
+<pre><code>SomeView = Backbone.View.extend({
+  render: function(){
+    // ... some rendering here
+    Backbone.ModelBinding.bind(this, { text: "modelAttr" });
+  }
+});
+
+&lt;input type="text" id="the_model_name" modelAttr="name"&gt;
+</code></pre>
+
+<p>When this text box has it's value changed, the model's <code>name</code> property will be populated with
+the value instead of <code>the_model_name</code>.</p>
+
+<p>If the same convention needs to be used throughout an application, and not just withing a single
+view, the configuration can be set at a global level:</p>
+
+<pre><code>Backbone.ModelBinding.Configuration.configureBindingAttributes({text: "modelAttr"});
+</code></pre>
+
+<p>Now all text boxes will update the model property specified in the text box's <code>modelAttr</code>.</p>
+
+<h2>
+<a name="pluggable-conventions" class="anchor" href="#pluggable-conventions"><span class="mini-icon mini-icon-link"></span></a>Pluggable Conventions</h2>
+
+<p>The convention based bindings are pluggable. Each of the existing form input types can have it's
+convention replaced and you can add your own conventions for input types not currently handled,
+etc. </p>
+
+<p>To replace a convention entirely, you need to supply a json document that has two pieces of
+information: a jQuery selector string and an object with a <code>bind</code> method. Place the convention
+in the <code>Backbone.ModelBinding.Conventions</code> and it will be picked up and executed. The <code>bind</code>
+method receives three parameters: the jQuery selector you specified, the Backbone view, and
+the model being bound.</p>
+
+<p>You can replace the handler of an existing convention. For example, this will set the
+value of a textbox called <code>#name</code> to some text, instead of doing any real binding.</p>
+
+<pre><code>var nameSettingsHandler = {
+  bind: function(selector, view, model){
+    view.$("#name").val("a custom convention supplied this name");
+  }
+};
+
+Backbone.ModelBinding.Conventions.text.handler = nameSettingsHandler;
+</code></pre>
+
+<p>You can also create your own conventions that do just about anything you want. Here's an example
+that modifies the contents of <code>&lt;p&gt;</code> tags:</p>
+
+<pre><code>var PConvention = {
+  selector: "p",
+  handler: {
+    bind: function(selector, view, model){
+      view.$(selector).each(function(index){
+        var name = model.get("name");
+        $(this).html(name);
+      });
+    }
+  }
+};
+
+Backbone.ModelBinding.Conventions.paragraphs = PConvention;
+</code></pre>
+
+<p>This example will find all <code>&lt;p&gt;</code> tags in the view and render the <code>name</code> property from the model
+into that paragraph, replacing all other text. Note that the name of the convention is set to
+<code>paragraphs</code> when added to the conventions. This name did not exist prior to this assignment, so
+the convention was added. If you assign a convention to an existing name, you will replace that
+convention.</p>
+
+<p>The list of existing conventions includes:</p>
+
+<ul>
+<li>text</li>
+<li>password</li>
+<li>radio</li>
+<li>checkbox</li>
+<li>select</li>
+<li>textarea</li>
+<li>number</li>
+<li>range</li>
+<li>tel</li>
+<li>search</li>
+<li>url</li>
+<li>email</li>
+<li>databind</li>
+</ul><p>For fully functional, bi-directional binding convention examples, check out the source code
+to Backbone.ModelBinding in the <code>backbone.modelbinding.js</code> file.</p>
+
+<h2>
+<a name="using-backbonemodelbinding-as-an-amd-module-requirejs" class="anchor" href="#using-backbonemodelbinding-as-an-amd-module-requirejs"><span class="mini-icon mini-icon-link"></span></a>Using Backbone.Modelbinding as an AMD module (require.js)</h2>
+
+<p>Backbone.Modelbinding detects an AMD loader like require.js and registrers as a module named 'modelbinding' if so.</p>
+
+<p>The prerequisites of Modelbinding must be known as AMD modules which is supported in following versions:</p>
+
+<ul>
+<li>JQuery 1.7</li>
+<li>Underscore 1.2.3</li>
+<li>Backbone, use jrburke's 0.5.3-optamd3 branch (<a href="https://github.com/jrburke/backbone/tree/optamd3">https://github.com/jrburke/backbone/tree/optamd3</a>) until supported by Backbone natively</li>
+</ul><h3>
+<a name="setup" class="anchor" href="#setup"><span class="mini-icon mini-icon-link"></span></a>Setup</h3>
+
+<p>Module names must be 'jquery', 'underscore', and 'backbone' which is done easily by naming files as jquery.js, underscore.js and backbone.js placed
+in the same folder as require.js. Or by settings up require.js alias configure like</p>
+
+<pre><code>require.config({
+  paths: {
+  // AMD modules
+    jquery:       'libs/jquery/1.7.1/jquery',
+    underscore:   'libs/underscore/1.2.3/underscore',
+    backbone:     'libs/backbone/0.5.3-optamd3/backbone',
+    modelbinding: 'libs/backbone/modelbinding/0.4.1-amd/backbone.modelbinding'
+  }
+});
+</code></pre>
+
+<h3>
+<a name="short-example" class="anchor" href="#short-example"><span class="mini-icon mini-icon-link"></span></a>Short Example</h3>
+
+<p>Load require.js as normal:</p>
+
+<pre><code>&lt;script type="text/javascript" src="js/require.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Hereafter require.js will take care of loading AMD module dependencies and you can use Backbone and Modelbinding
+as you are used to:</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+  require ([
+    'jquery','underscore','backbone','modelbinding'
+  ], function ($, _, Backbone, Modelbinding ) {
+    ...
+    SomeView = Backbone.View.extend({
+      render: function(){
+        // ... render your form here
+        $(this.el).html("... some html and content goes here ... ");
+
+        // execute the model bindings
+        ModelBinding.bind(this);
+      }
+    });
+    ...
+  });
+&lt;/script&gt;
+</code></pre>
+
+<h3>
+<a name="migrating-to-amd" class="anchor" href="#migrating-to-amd"><span class="mini-icon mini-icon-link"></span></a>Migrating to AMD</h3>
+
+<p>If you are converting existing code referencing the Backbone.Modelbinding namespace it can still be supported 
+by assigning the module to the namespace, optionally using require.js itself as an module. 
+When above example would be:</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+  require ([
+    'require','jquery','underscore','backbone'
+  ], function (require, $, _, Backbone ) {
+    // use require.js to load modelbinding and assign to Backbone namespace:
+    Backbone.Modelbinding = require('modelbinding');
+    ...
+    SomeView = Backbone.View.extend({
+      render: function(){
+        // ... render your form here
+        $(this.el).html("... some html and content goes here ... ");
+
+        // execute the model bindings
+        Backbone.ModelBinding.bind(this);
+      }
+    });
+    ...
+  });
+&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a name="release-notes" class="anchor" href="#release-notes"><span class="mini-icon mini-icon-link"></span></a>Release Notes</h2>
+
+<h3>
+<a name="v050" class="anchor" href="#v050"><span class="mini-icon mini-icon-link"></span></a>v0.5.0</h3>
+
+<ul>
+<li>
+<strong>BREAKING:</strong> Backbone v0.5.3 is no longer officially supported. 
+
+<ul>
+<li>It should work fine right now (Backbone v0.9.0 is mostly backward compatible), but I won't be testing against v0.5.x anymore. </li>
+<li>If you need support for v0.5.3, use ModelBinding v0.4.3</li>
+</ul>
+</li>
+<li>Fixed radio field group, name binding (#60)</li>
+<li>Updated Backbone to v0.9.0</li>
+<li>Updated Underscore to v1.3.1</li>
+<li>Updated jQuery to v1.7.1</li>
+</ul><h3>
+<a name="v043" class="anchor" href="#v043"><span class="mini-icon mini-icon-link"></span></a>v0.4.3</h3>
+
+<ul>
+<li>Added ability for data-bind to bind to arbitrary events (#51)</li>
+<li>Fixed a few more global function leaks</li>
+</ul><h3>
+<a name="v042" class="anchor" href="#v042"><span class="mini-icon mini-icon-link"></span></a>v0.4.2</h3>
+
+<ul>
+<li>AMD (asynchronous module definition) support for RequireJS and other CommonJS implementations</li>
+<li>Configure the selector used for element data-binding (#36).</li>
+<li>Fixed a small bug in radio group bindings, related to special characters (#42)</li>
+<li>Fixed a few more global var leaks (#40 &amp; #41)</li>
+</ul><h3>
+<a name="v041" class="anchor" href="#v041"><span class="mini-icon mini-icon-link"></span></a>v0.4.1</h3>
+
+<ul>
+<li>Bind the existing value from an input element to the model on render, if no model value exists</li>
+<li>Added HTML5 input types to the form binding conventions: number, range, tel, search, url, email</li>
+</ul><h3>
+<a name="v040" class="anchor" href="#v040"><span class="mini-icon mini-icon-link"></span></a>v0.4.0</h3>
+
+<ul>
+<li>Major internal rewrite to facilitate maintenance, new features, etc</li>
+<li>No public API changes (at least, I hope not!)</li>
+<li>Correctly unbind HTML element / jQuery events, when calling <code>unbind</code>
+</li>
+<li>Corrected the <code>data-bind</code> method for showing / hiding an element when using the <code>displayed</code> and <code>hidden</code> settings</li>
+<li>Corrected the global configuration so that it does not get reset after you call <code>bind</code> the first time</li>
+<li>Now uses an internal object call <code>ModelBinder</code>, which is attached to the view that binding occurs on</li>
+<li>The <code>ModelBinder</code> instance stores all of the binding configuration and callbacks for that view, allowing much faster / easier / better unbinding</li>
+</ul><h3>
+<a name="v0310" class="anchor" href="#v0310"><span class="mini-icon mini-icon-link"></span></a>v0.3.10</h3>
+
+<ul>
+<li>When binding to a select box and the model has a value not present in the box, reset the model's value to the box's</li>
+<li>Fix for using Backbone.noConflict(), Backbone was either wrong version or undefined when it was used inside ModelBinding. </li>
+<li>Added some missing ;</li>
+<li>Fix some documentation issues</li>
+</ul><h3>
+<a name="v039" class="anchor" href="#v039"><span class="mini-icon mini-icon-link"></span></a>v0.3.9</h3>
+
+<ul>
+<li>Fixed an issue with jQuery 1.6.4 determining if check boxes are checked or not</li>
+<li>Minor internal clean up</li>
+</ul><h3>
+<a name="v038" class="anchor" href="#v038"><span class="mini-icon mini-icon-link"></span></a>v0.3.8</h3>
+
+<ul>
+<li>Fix for Internet Explorer not having a <code>trim</code> method on strings</li>
+</ul><h3>
+<a name="v037" class="anchor" href="#v037"><span class="mini-icon mini-icon-link"></span></a>v0.3.7</h3>
+
+<ul>
+<li>Data-bind multiple attributes for a single element</li>
+<li>Default data-bind substitutaion to '' for all attributes</li>
+</ul><h3>
+<a name="v036" class="anchor" href="#v036"><span class="mini-icon mini-icon-link"></span></a>v0.3.6</h3>
+
+<ul>
+<li>Fixed a bug that prevented <code>&lt;input&gt;</code> elements with no <code>type</code> attribute from being bound</li>
+</ul><h3>
+<a name="v035" class="anchor" href="#v035"><span class="mini-icon mini-icon-link"></span></a>v0.3.5</h3>
+
+<ul>
+<li>Fixed a bug in configuring the binding attribute for textarea elements</li>
+</ul><h3>
+<a name="v034" class="anchor" href="#v034"><span class="mini-icon mini-icon-link"></span></a>v0.3.4</h3>
+
+<ul>
+<li>Data-bind defaults to the html element's <code>text</code> if you only specify the model property: <code>data-bind="name"</code>
+</li>
+<li>Fixed issue with binding 1 / 0 to checkboxes (truthy / falsy values)</li>
+</ul><h3>
+<a name="v033" class="anchor" href="#v033"><span class="mini-icon mini-icon-link"></span></a>v0.3.3</h3>
+
+<ul>
+<li>Added data-bind attribute for setting an HTML element's <code>display</code> css</li>
+<li>Added inserve of data-bind <code>displayed</code> as data-bind <code>hidden</code>
+</li>
+<li>Corrected issue with binding a model's property to a checkbox, when the property is false</li>
+</ul><h3>
+<a name="v032" class="anchor" href="#v032"><span class="mini-icon mini-icon-link"></span></a>v0.3.2</h3>
+
+<ul>
+<li>Data-bind substitutions - lets you replace "undefined" with another, set value, when using data-bind</li>
+</ul><h3>
+<a name="v031" class="anchor" href="#v031"><span class="mini-icon mini-icon-link"></span></a>v0.3.1</h3>
+
+<ul>
+<li>Corrected issue with <code>unset</code>ing a model property, in the data-bind convention</li>
+</ul><h3>
+<a name="v030" class="anchor" href="#v030"><span class="mini-icon mini-icon-link"></span></a>v0.3.0</h3>
+
+<ul>
+<li>
+<strong>Breaking Change:</strong> Changed the <code>Backbone.ModelBinding.call(view)</code> method signature to <code>Backbone.ModelBinding.bind(view)</code>
+</li>
+<li>Added ability to unbind model binding with <code>unbind</code> method, to prevent memory leaks and zombie forms</li>
+<li>Added backbone.modelbinding.min.js to the repository, compiled with 
+<a href="http://closure-compiler.appspot.com/home" title="Google's Closure Compiler Service">Google's Closure Compiler Service</a>
+</li>
+<li>Updated the selectors used for the conventions. Text inputs are now found with "input:text", which should
+select all text inputs, even without a <code>type='text'</code> attribute (though this seems to be buggy in jQuery 
+v1.6.2)</li>
+<li>Significant internal restructuring of code</li>
+</ul><h3>
+<a name="v024" class="anchor" href="#v024"><span class="mini-icon mini-icon-link"></span></a>v0.2.4</h3>
+
+<ul>
+<li>Data-bind will bind the model's value immediately instead of waiting for the model's value to change</li>
+<li>Support <code>enabled</code> functionality for data-bind: <code>data-bind="enabled isValid"</code>
+</li>
+<li>Documented existing support for data-bind <code>disabled</code>: <code>data-bind="disabled invalid"</code>
+</li>
+</ul><h3>
+<a name="v023" class="anchor" href="#v023"><span class="mini-icon mini-icon-link"></span></a>v0.2.3</h3>
+
+<ul>
+<li>Fixes for 'falsey' value bindings</li>
+<li>Update the docs to include when and where to call the model bindings</li>
+</ul><h3>
+<a name="v022" class="anchor" href="#v022"><span class="mini-icon mini-icon-link"></span></a>v0.2.2</h3>
+
+<ul>
+<li>Making some global vars not global</li>
+</ul><h3>
+<a name="v021" class="anchor" href="#v021"><span class="mini-icon mini-icon-link"></span></a>v0.2.1</h3>
+
+<ul>
+<li>Configuration to easily set all binding attributes for all elements</li>
+<li>Fix for IE</li>
+<li>Making some global vars not global</li>
+</ul><h3>
+<a name="v010---v020" class="anchor" href="#v010---v020"><span class="mini-icon mini-icon-link"></span></a>v0.1.0 - v0.2.0</h3>
+
+<ul>
+<li>Added data-bind convention</li>
+<li>Added configuration options</li>
+<li>Conventions for all form input types</li>
+<li>Removed formBinding code</li>
+<li>Removed htmlBinding code</li>
+<li>Significant internal code cleanup and restructuring</li>
+</ul><h1>
+<a name="legal-mumbo-jumbo-mit-license" class="anchor" href="#legal-mumbo-jumbo-mit-license"><span class="mini-icon mini-icon-link"></span></a>Legal Mumbo Jumbo (MIT License)</h1>
+
+<p>Copyright (c) 2011 Derick Bailey, Muted Solutions, LLC</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p></article>
+        </div>
+    </div>
+  </div>
+  <br style="clear:both;">
+
+
+<br style="clear:both;">
+
+<div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1359500886" height="64" width="64">
+</div>
+
+
+  </div>
+
+        </div>
+      </div>
+      <div class="context-overlay"></div>
+    </div>
+
+      <div id="footer-push"></div><!-- hack for sticky footer -->
+    </div><!-- end of wrapper - hack for sticky footer -->
+
+      <!-- footer -->
+      <div id="footer">
+  <div class="container clearfix">
+
+      <dl class="footer_nav">
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/about">About us</a></dd>
+        <dd><a href="https://github.com/blog">Blog</a></dd>
+        <dd><a href="https://github.com/contact">Contact &amp; support</a></dd>
+        <dd><a href="http://enterprise.github.com/">GitHub Enterprise</a></dd>
+        <dd><a href="http://status.github.com/">Site status</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Applications</dt>
+        <dd><a href="http://mac.github.com/">GitHub for Mac</a></dd>
+        <dd><a href="http://windows.github.com/">GitHub for Windows</a></dd>
+        <dd><a href="http://eclipse.github.com/">GitHub for Eclipse</a></dd>
+        <dd><a href="http://mobile.github.com/">GitHub mobile apps</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Services</dt>
+        <dd><a href="http://get.gaug.es/">Gauges: Web analytics</a></dd>
+        <dd><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></dd>
+        <dd><a href="https://gist.github.com">Gist: Code snippets</a></dd>
+        <dd><a href="http://jobs.github.com/">Job board</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Documentation</dt>
+        <dd><a href="http://help.github.com/">GitHub Help</a></dd>
+        <dd><a href="http://developer.github.com/">Developer API</a></dd>
+        <dd><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></dd>
+        <dd><a href="http://pages.github.com/">GitHub Pages</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>More</dt>
+        <dd><a href="http://training.github.com/">Training</a></dd>
+        <dd><a href="https://github.com/edu">Students &amp; teachers</a></dd>
+        <dd><a href="http://shop.github.com">The Shop</a></dd>
+        <dd><a href="/plans">Plans &amp; pricing</a></dd>
+        <dd><a href="http://octodex.github.com/">The Octodex</a></dd>
+      </dl>
+
+      <hr class="footer-divider">
+
+
+    <p class="right">&copy; 2013 <span title="0.07852s from fe19.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
+    <a class="left" href="https://github.com/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+        <li><a href="https://github.com/site/terms">Terms of Service</a></li>
+        <li><a href="https://github.com/site/privacy">Privacy</a></li>
+        <li><a href="https://github.com/security">Security</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+
+</div><!-- /.#footer -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/derickbailey/backbone.modelbinding/suggestions/commit/279bf93d5e873ee96bd48c417f60c0f13e522b01">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-icon mega-icon-normalscreen"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="mini-icon mini-icon-brightness"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+
+    
+    
+    <span id='server_response_time' data-time='0.07902' data-host='fe19'></span>
+    
+  </body>
+</html>
+

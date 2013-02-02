@@ -1,0 +1,9 @@
+{
+  "name": "jquery-validation.password",
+  "version": "0.0.0",
+  "commit": "051c9e05fcfa8d169c77f27afa0d1a31d8514fc2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jzaefferer/jquery-validation.password.git"
+  }
+}

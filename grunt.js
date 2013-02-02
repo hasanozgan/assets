@@ -25,6 +25,7 @@ module.exports = function(grunt) {
                         'bootstrap-timepicker/compiled/timepicker.css',
                         'jquery-multiselect/jquery.multiselect.css',
                         'antiscroll/antiscroll.css',
+                        'jquery-validation.password/jquery.validate.password.css',
     '']; 
 
     var JS_FILES   = [ 
@@ -46,6 +47,8 @@ module.exports = function(grunt) {
                         'jquery.cookie/jquery.cookie.js',
                         'jquery.sticky/jquery.sticky.js',
                         'jquery-multiselect/jquery.multiselect.js',
+                        'jquery.validation/jquery.validate.js',
+                        'jquery-validation.password/jquery.validate.password.js',
 
     ''];
 

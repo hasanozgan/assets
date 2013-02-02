@@ -3,6 +3,42 @@ A customizable lightbox plugin for jQuery.  See the [project page](http://jacklm
 
 ## Changelog:
 
+### Version 1.3.32 - 2013/1/31
+
+* Improved internal event subscribing & fixed event bug introduced in v1.3.21
+
+### Version 1.3.31 - 2013/1/28
+
+* Fixed a size-calculation bug introduced in the previous commit.
+
+### Version 1.3.30 - 2013/1/25
+
+* Delayed border-width calculations until after opening, to avoid a bug in FF when using ColorBox in a hidden iframe.
+
+### Version 1.3.29 - 2013/1/24
+
+* Fixes bug with bubbling delegated events, introduced in the previous commit.
+
+### Version 1.3.28 - 2013/1/24
+
+* Fixed compatibility issue with old versions of jQuery (1.3.2-1.4.2)
+
+### Version 1.3.27 - 2013/1/23
+
+* Added className property.
+
+### Version 1.3.26 - 2013/1/23
+
+* Minor bugfix: clear the onload event handler after photo has loaded.
+
+### Version 1.3.25 - 2013/1/23
+
+* Removed grunt file & added Bower component.json.
+
+### Version 1.3.24 - 2013/1/22
+
+* Added generated files (jquery.colorbox.js / jquery.colorbox-min.js) back to the repository.
+
 ### Version 1.3.23 - 2013/1/18
 
 * Minor bugfix for calling ColorBox on empty jQuery collections without a selector.

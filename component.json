@@ -22,6 +22,10 @@
     "marionette": "~1.0.0-rc3",
     "html5shiv": "git://github.com/aFarkas/html5shiv.git#~3.6.1",
     "Respond": "git://github.com/scottjehl/Respond.git#~1.2.0",
-    "excanvas": "git://github.com/arv/excanvas.git"
+    "backbone.memento": "git://github.com/derickbailey/backbone.memento.git",
+    "backbone.modelbinding": "https://github.com/derickbailey/backbone.modelbinding",
+    "excanvas": "git://github.com/arv/excanvas.git",
+    "jquery.validation": "~1.10.0",
+    "jquery-validation.password": "latest"
   }
 }

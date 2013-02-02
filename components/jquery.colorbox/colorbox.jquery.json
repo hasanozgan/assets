@@ -9,10 +9,11 @@
 		"popup",
 		"ui"
 	],
-	"version": "1.3.23",
+	"version": "1.3.32",
 	"author": {
 		"name": "Jack Moore",
-		"url": "http://www.jacklmoore.com"
+		"url": "http://www.jacklmoore.com",
+		"email": "jack@colorpowered.com"
 	},
 	"licenses": [
 		{
@@ -23,5 +24,7 @@
 	"homepage": "http://jacklmoore.com/colorbox",
 	"demo": "http://jacklmoore.com/colorbox",
 	"download": "http://jacklmoore.com/colorbox/colorbox.zip",
-	"dependencies": { "jquery": ">=1.4.3" }
+	"dependencies": {
+		"jquery": ">=1.3.2"
+	}
 }
