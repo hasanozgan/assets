@@ -32,10 +32,12 @@ module.exports = function(grunt) {
                         'jquery/jquery.js',
 //                        'jquery-ui/ui/jquery-ui.custom.js',
                         'bootstrap/docs/assets/js/bootstrap.js', 
-                        'handlebars/handlebars.js',
-                        'underscore/underscore.js', 
-                        'backbone/backbone.js', 
-                        'marionette/lib/backbone.marionette.js',
+                        'angular/angular.js',
+                        
+//                        'handlebars/handlebars.js',
+//                        'underscore/underscore.js', 
+//                        'backbone/backbone.js', 
+//                        'marionette/lib/backbone.marionette.js',
 
                         // Plugins
                         'fullcalendar/fullcalendar.js', 

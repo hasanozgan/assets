@@ -26,6 +26,9 @@
     "backbone.modelbinding": "https://github.com/derickbailey/backbone.modelbinding",
     "excanvas": "git://github.com/arv/excanvas.git",
     "jquery.validation": "~1.10.0",
-    "jquery-validation.password": "latest"
+    "jquery-validation.password": "latest",
+    "angular": "~1.0.5",
+    "angular-bootstrap": "~0.1.0",
+    "angular-ui": "~0.4.0"
   }
 }
