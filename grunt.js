@@ -3,55 +3,57 @@
 module.exports = function(grunt) {
 
     var BASE_DIR   = 'components/';
-    var BUILD_DIR = 'dist/';
-    var FILE_NAME = 'components';
+    var BUILD_DIR  = 'dist/';
+    var FILE_NAME  = 'components';
 
-    var STYLESHEET_FILE = BUILD_DIR+FILE_NAME+'.css';
-    var JAVASCRIPT_FILE = BUILD_DIR+FILE_NAME+'.js';
-    var IE_JAVASCRIPT_FILE = BUILD_DIR+'ie.js';
+    var STYLESHEET_FILE     = BUILD_DIR + FILE_NAME + '.css';
+    var JAVASCRIPT_FILE     = BUILD_DIR + FILE_NAME + '.js';
+    var IE_JAVASCRIPT_FILE  = BUILD_DIR + 'ie.js';
 
+    var STYLESHEET_MIN_FILE     = BUILD_DIR + FILE_NAME + '.min.css';
+    var JAVASCRIPT_MIN_FILE     = BUILD_DIR + FILE_NAME + '.min.js';
+    var IE_JAVASCRIPT_MIN_FILE  = BUILD_DIR + 'ie.min.js';
 
-    var STYLESHEET_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.css';
-    var JAVASCRIPT_MIN_FILE = BUILD_DIR+FILE_NAME+'.min.js';
-    var IE_JAVASCRIPT_MIN_FILE = BUILD_DIR+'ie.min.js';
-
-
-    var CSS_FILES  = [ 
+    var CSS_FILES  = [
                         'bootstrap/docs/assets/css/bootstrap.css',
-//                        'bootstrap/docs/assets/css/bootstrap-responsive.css',
-//                        'fullcalendar/fullcalendar.css',
+//                      'angular-ui/build/angular-ui.css',
+//                      'angular-bootstrap/dist/ui-bootstrap-0.1.0.css',
+//                      'bootstrap/docs/assets/css/bootstrap-responsive.css',
+//                      'fullcalendar/fullcalendar.css',
+//                      'jquery-multiselect/jquery.multiselect.css',
+ 
                         'bootstrap-datepicker/css/datepicker.css',
                         'bootstrap-colorpicker/css/colorpicker.css',
                         'bootstrap-timepicker/compiled/timepicker.css',
-                        'jquery-multiselect/jquery.multiselect.css',
                         'antiscroll/antiscroll.css',
                         'jquery-validation.password/jquery.validate.password.css',
-    '']; 
+   '']; 
 
     var JS_FILES   = [ 
                         'jquery/jquery.js',
-//                        'jquery-ui/ui/jquery-ui.custom.js',
-                        'bootstrap/docs/assets/js/bootstrap.js', 
                         'angular/angular.js',
-                        
-//                        'handlebars/handlebars.js',
-//                        'underscore/underscore.js', 
-//                        'backbone/backbone.js', 
-//                        'marionette/lib/backbone.marionette.js',
+                        'angular-resource/angular-resource.js',
+//                      'angular-ui/build/angular-ui.js',
+//                      'angular-bootstrap/dist/ui-bootstrap-0.1.0.js', 
+//                      'jquery-ui/ui/jquery-ui.custom.js',
+                        'bootstrap/docs/assets/js/bootstrap.js', 
+//                      'handlebars/handlebars.js',
+//                      'underscore/underscore.js', 
+//                      'backbone/backbone.js', 
+//                      'marionette/lib/backbone.marionette.js',
 
                         // Plugins
                         'fullcalendar/fullcalendar.js', 
-                        'jquery.actual/jquery.actual.js',
+//                      'jquery.actual/jquery.actual.js',
                         'bootstrap-colorpicker/js/bootstrap-colorpicker.js',
                         'bootstrap-datepicker/js/bootstrap-datepicker.js',
                         'bootstrap-timepicker/js/bootstrap-timepicker.js',
                         'antiscroll/antiscroll.js',
                         'jquery.cookie/jquery.cookie.js',
-                        'jquery.sticky/jquery.sticky.js',
-                        'jquery-multiselect/jquery.multiselect.js',
+//                      'jquery.sticky/jquery.sticky.js',
+//                      'jquery-multiselect/jquery.multiselect.js',
                         'jquery.validation/jquery.validate.js',
                         'jquery-validation.password/jquery.validate.password.js',
-
     ''];
 
     var IE_JS_FILES = [ 
