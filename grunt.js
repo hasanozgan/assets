@@ -16,12 +16,11 @@ module.exports = function(grunt) {
 
     var CSS_FILES  = [
                         'bootstrap/docs/assets/css/bootstrap.css',
-//                      'angular-ui/build/angular-ui.css',
-//                      'angular-bootstrap/dist/ui-bootstrap-0.1.0.css',
+                        'angular-ui/build/angular-ui.css',
+                        'angular-bootstrap/dist/ui-bootstrap-0.1.0.css',
 //                      'bootstrap/docs/assets/css/bootstrap-responsive.css',
 //                      'fullcalendar/fullcalendar.css',
 //                      'jquery-multiselect/jquery.multiselect.css',
- 
                         'bootstrap-datepicker/css/datepicker.css',
                         'bootstrap-colorpicker/css/colorpicker.css',
                         'bootstrap-timepicker/compiled/timepicker.css',
@@ -33,8 +32,8 @@ module.exports = function(grunt) {
                         'jquery/jquery.js',
                         'angular/angular.js',
                         'angular-resource/angular-resource.js',
-//                      'angular-ui/build/angular-ui.js',
-//                      'angular-bootstrap/dist/ui-bootstrap-0.1.0.js', 
+                        'angular-ui/build/angular-ui.js',
+                        'angular-bootstrap/dist/ui-bootstrap-0.1.0.js', 
 //                      'jquery-ui/ui/jquery-ui.custom.js',
                         'bootstrap/docs/assets/js/bootstrap.js', 
 //                      'handlebars/handlebars.js',
@@ -44,7 +43,7 @@ module.exports = function(grunt) {
 
                         // Plugins
                         'fullcalendar/fullcalendar.js', 
-//                      'jquery.actual/jquery.actual.js',
+                        'jquery.actual/jquery.actual.js',
                         'bootstrap-colorpicker/js/bootstrap-colorpicker.js',
                         'bootstrap-datepicker/js/bootstrap-datepicker.js',
                         'bootstrap-timepicker/js/bootstrap-timepicker.js',
